@@ -1,0 +1,39 @@
+img {
+  max-width: 300px;
+  padding: 20px;
+}
+
+.div-container {
+  background-color: pink;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.div-container .item2 {
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div-container .item2 .listed-item {
+  border: 1px solid gray;
+  flex: 1 1 25%;
+  min-width: 300px;
+  /* height: 50vh; */
+}
+
+.listed-item .div-book-image {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listed-item label {
+  display: flex;
+  justify-content: space-around;
+}
+/* 
+.listed-item .details-button {
+  display: flex;
+  justify-content: space-around;
+} */
